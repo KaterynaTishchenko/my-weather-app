@@ -1,0 +1,127 @@
+body {
+  font-family: arial, sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1559010253-775fe9e6267c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  color: #122f48;
+  text-shadow: 1px 1px 1px #122f48;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+li {
+  color: #122f48;
+  text-shadow: 1px 1px 1px #122f48;
+  font-size: 16px;
+  font-weight: 400;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+footer {
+  text-align: center;
+  padding-top: 110px;
+}
+#description-weather {
+  text-transform: capitalize;
+}
+
+.weather-app {
+  border: 1px solid #122f48;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+.form-control {
+  opacity: 0.7;
+}
+.form-control:hover {
+  background: #122f48;
+  color: white;
+}
+.current-day {
+  color: #122f48;
+  font-size: 16px;
+  margin: 0;
+}
+.map {
+  padding-bottom: 10px;
+  float: right;
+  opacity: 0.8;
+}
+.map:hover {
+  opacity: 1;
+}
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+  float: left;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -32px;
+}
+.weather-search-form {
+  margin-bottom: 15px;
+}
+.day {
+  text-align: center;
+}
+.four-day-forecast {
+  padding: 15px;
+  margin: 0 auto;
+  background-color: rgba(255, 253, 253, 0.2);
+  border-radius: 10px;
+}
+.day-name {
+  color: #122f48;
+  text-shadow: 1px 1px 1px #122f48;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.max {
+  color: #122f48;
+
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+}
+.min {
+  color: #4a5e99;
+
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+}
+.name {
+  text-decoration: none;
+  color: #122f48;
+}
+
+.name:hover {
+  text-decoration: underline;
+  color: #4a5e99;
+  cursor: pointer;
+}
+.country {
+  width: 36px;
+}
