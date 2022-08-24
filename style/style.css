@@ -54,14 +54,7 @@ footer {
   font-size: 16px;
   margin: 0;
 }
-.map {
-  padding-bottom: 10px;
-  float: right;
-  opacity: 0.8;
-}
-.map:hover {
-  opacity: 1;
-}
+
 .weather-icon {
   height: 64px;
   width: 64px;
