@@ -42,22 +42,20 @@
             </div>
           </div>
         </form>
+
         <button type="button" class="btn btn-link" id="button-current-position">
           Define my current position
         </button>
-        <div class="row">
-          <div class="col-5">
-            <h1 id="current-city-country"></h1>
-          </div>
-          <div class="col-7">
-            <p class="current-day">
-              <span id="current-date-time"></span> <br />
-              <span id="description-weather"></span>
-            </p>
-          </div>
+
+        <div class="main-information">
+          <h1 id="current-city-country"></h1>
+          <p class="current-day">
+            <span id="current-date-time"></span> <br />
+            <span id="description-weather"></span>
+          </p>
         </div>
 
-        <div class="row">
+        <div class="row" id="current-weather-information">
           <div class="col-6 current-temp">
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
@@ -72,9 +70,9 @@
           </div>
           <div class="col-6">
             <ul>
-              <li>Pressure: <span id="pressure"></span> hPa</li>
-              <li>Humidity: <span id="humidity"></span> %</li>
-              <li>Wind: <span id="wind"></span> meter/sec</li>
+              <li id="first-li">Pressure: <span id="pressure"></span> hPa</li>
+              <li id="second-li">Humidity: <span id="humidity"></span> %</li>
+              <li id="third-li">Wind: <span id="wind"></span> meter/sec</li>
             </ul>
           </div>
         </div>
@@ -130,7 +128,7 @@
           class="name"
           href="https://github.com/KaterynaTishchenko/my-weather-app"
           target="_blank"
-          ><strong class="name">Open-source</strong>
+          ><span class="name">Open-source</span>
         </a>
         by
         <a
@@ -138,13 +136,8 @@
           href="https://www.linkedin.com/in/katerina-tishchenko-1686a4242"
           target="_blank"
         >
-          <strong class="name">Kateryna Tishchenko </strong>
+          <span class="name">Kateryna Tishchenko </span>
         </a>
-        from
-        <img
-          class="country"
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/076/original/ukraine-flag-42041.png?1655838840"
-        />
       </footer>
     </div>
     <script src="src/index.js"></script>
