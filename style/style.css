@@ -23,7 +23,7 @@ li {
   line-height: 1;
   list-style: none;
   padding: 8px;
-  color: #cecece;
+  color: #3f4d79;
   font-weight: bolder;
   margin-left: 20px;
 }
@@ -77,7 +77,7 @@ footer {
   color: white;
 }
 .current-day {
-  color: #cecece;
+  color: #3f4d79;
   font-size: 16px;
   margin: 0;
   font-weight: bolder;
