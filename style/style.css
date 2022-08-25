@@ -1,9 +1,8 @@
 body {
-  font-family: arial, sans-serif;
-  background-image: url("https://images.unsplash.com/photo-1559010253-775fe9e6267c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+  background-image: url("https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Lato", sans-serif;
+  font-family: "Marcellus", serif;
 }
 h1 {
   color: #122f48;
