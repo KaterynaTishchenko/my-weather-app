@@ -23,7 +23,7 @@ li {
   line-height: 1;
   list-style: none;
   padding: 8px;
-  color: #3f4d79;
+  color: #252d46;
   font-weight: bolder;
   margin-left: 20px;
 }
@@ -43,7 +43,7 @@ footer {
 #button-current-position {
   padding: 0px;
   margin-bottom: 10px;
-  color: #494a6d;
+  color: #252d46;
   font-weight: bold;
   text-decoration: none;
 }
@@ -77,7 +77,7 @@ footer {
   color: white;
 }
 .current-day {
-  color: #3f4d79;
+  color: #252d46;
   font-size: 16px;
   margin: 0;
   font-weight: bolder;
@@ -107,7 +107,7 @@ footer {
   top: -32px;
 }
 #celsius-link {
-  color: #494a6d;
+  color: #252d46;
   font-weight: bold;
   text-decoration: none;
 }
@@ -117,7 +117,7 @@ footer {
 }
 
 #fahrenheit-link {
-  color: #494a6d;
+  color: #252d46;
   font-weight: bold;
   text-decoration: none;
 }
@@ -139,14 +139,14 @@ footer {
   border-radius: 10px;
 }
 .day-name {
-  color: #494a6d;
+  color: #252d46;
   font-weight: bolder;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
 .max {
-  color: #494a6d;
+  color: #252d46;
   font-size: 13px;
   font-weight: bold;
   line-height: 15px;
