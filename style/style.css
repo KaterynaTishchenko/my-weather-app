@@ -1,6 +1,7 @@
 body {
   font-family: "Marcellus", serif;
 }
+
 h1 {
   color: #fcf9f4;
   font-size: 35px;
@@ -66,7 +67,6 @@ footer {
   padding: 20px;
   margin: 50px auto;
   max-width: 500px;
-  max-height: fit-content;
 }
 .form-control {
   opacity: 0.7;
@@ -115,7 +115,7 @@ footer {
   color: #252d46;
 }
 a {
-  color: #e5cd9e;
+  color: #4a5e99;
 }
 a:hover {
   color: #ffc97c;
