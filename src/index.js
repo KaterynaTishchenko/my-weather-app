@@ -42,9 +42,6 @@ function currentPosition(event) {
     let lat = position.coords.latitude;
     let long = position.coords.longitude;
 
-    let contryInsideApp = document.querySelector("#current-city-country");
-    contryInsideApp.innerHTML = `latitude ${lat}, longtitude ${long}`;
-
     let apiKey = "b2dacf6390f21b407d2974cf4a1cc996";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apiKey}&units=metric`;
 
