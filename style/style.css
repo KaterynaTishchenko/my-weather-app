@@ -110,23 +110,18 @@ footer {
   position: relative;
   top: -32px;
 }
-#celsius-link {
-  color: #252d46;
-  font-weight: bold;
-  text-decoration: none;
-}
-#celsius-link:hover {
-  text-decoration: underline;
-  color: #4a5e99;
-}
 
-#fahrenheit-link {
+.active {
+  cursor: default;
   color: #252d46;
   font-weight: bold;
   text-decoration: none;
 }
-#fahrenheit-link:hover {
-  text-decoration: underline;
+.active:hover {
+  text-decoration: none;
+  color: #252d46;
+}
+a {
   color: #4a5e99;
 }
 

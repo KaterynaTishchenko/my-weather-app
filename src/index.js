@@ -15,7 +15,10 @@ function changeCity(event) {
 function showtemperature(response) {
   document.querySelector("#current-city-country").innerHTML =
     response.data.name;
-  let temperature = Math.round(response.data.main.temp);
+
+  celsiusTemperature = response.data.main.temp;
+
+  let temperature = Math.round(celsiusTemperature);
   let hum = Math.round(response.data.main.humidity);
   let description = response.data.weather[0].description;
   let windSpeed = response.data.wind.speed;
@@ -54,13 +57,18 @@ function currentPosition(event) {
 function farenheitClick(event) {
   event.preventDefault();
   let temperature = document.querySelector("#temperature");
-  temperature.innerHTML = Math.round((19 * 9) / 5 + 32);
+  celsius.classList.remove("active");
+  farenheit.classList.add("active");
+  let farenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperature.innerHTML = Math.round(farenheitTemperature);
 }
 
 function celsiusClick(event) {
   event.preventDefault();
+  farenheit.classList.remove("active");
+  celsius.classList.add("active");
   let temperature = document.querySelector("#temperature");
-  temperature.innerHTML = 19;
+  temperature.innerHTML = Math.round(celsiusTemperature);
 }
 
 let days = [
@@ -100,6 +108,7 @@ let currentMinutes = now.getMinutes();
 if (currentMinutes < 10) {
   currentMinutes = `0${currentMinutes}`;
 }
+let celsiusTemperature = null;
 
 let currentFullDate = `${currentDay} ${currentHours}:${currentMinutes}, ${currentMonth} ${currentDate}`;
 
