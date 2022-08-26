@@ -24,11 +24,13 @@ function showtemperature(response) {
   let descr = document.querySelector("#description-weather");
   let humiditiInsideApp = document.querySelector("#humidity");
   let windInsideApp = document.querySelector("#wind");
+  let iconElement = document.querySelector("#icon");
 
   temp.innerHTML = temperature;
   descr.innerHTML = description;
   humiditiInsideApp.innerHTML = hum;
   windInsideApp.innerHTML = windSpeed;
+  iconElement.innerHTML = response.data.weather[0].icon;
 }
 
 function currentPosition(event) {
