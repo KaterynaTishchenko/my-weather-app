@@ -122,7 +122,10 @@ footer {
   color: #252d46;
 }
 a {
-  color: #4a5e99;
+  color: #e5cd9e;
+}
+a:hover {
+  color: #ffc97c;
 }
 
 .weather-search-form {
