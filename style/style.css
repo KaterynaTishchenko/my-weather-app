@@ -27,6 +27,9 @@ li {
 .col-5 {
   padding-left: 0;
 }
+.col-6 {
+  padding-right: 0;
+}
 #first-li {
   margin-bottom: 5px;
 }
