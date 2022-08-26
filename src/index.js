@@ -30,7 +30,11 @@ function showtemperature(response) {
   descr.innerHTML = description;
   humiditiInsideApp.innerHTML = hum;
   windInsideApp.innerHTML = windSpeed;
-  iconElement.innerHTML = response.data.weather[0].icon;
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function currentPosition(event) {
