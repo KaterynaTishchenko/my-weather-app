@@ -118,4 +118,4 @@ celsius.addEventListener("click", celsiusClick);
 let buttonCurrentPosition = document.querySelector("#button-current-position");
 buttonCurrentPosition.addEventListener("click", currentPosition);
 
-search("New York");
+search("Kyiv");
