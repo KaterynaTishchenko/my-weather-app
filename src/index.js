@@ -110,22 +110,6 @@ function currentPosition(event) {
   navigator.geolocation.getCurrentPosition(handlePosition);
 }
 
-function farenheitClick(event) {
-  event.preventDefault();
-  let temperature = document.querySelector("#temperature");
-  celsius.classList.remove("active");
-  farenheit.classList.add("active");
-  let farenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  temperature.innerHTML = Math.round(farenheitTemperature);
-}
-
-function celsiusClick(event) {
-  event.preventDefault();
-  farenheit.classList.remove("active");
-  celsius.classList.add("active");
-  let temperature = document.querySelector("#temperature");
-  temperature.innerHTML = Math.round(celsiusTemperature);
-}
 
 let days = [
   "Sunday",
@@ -174,11 +158,6 @@ currentDateWeather.innerHTML = currentFullDate;
 let cityForm = document.querySelector("#weather-form-engine");
 cityForm.addEventListener("submit", changeCity);
 
-let farenheit = document.querySelector("#fahrenheit-link");
-farenheit.addEventListener("click", farenheitClick);
-
-let celsius = document.querySelector("#celsius-link");
-celsius.addEventListener("click", celsiusClick);
 
 let buttonCurrentPosition = document.querySelector("#button-current-position");
 buttonCurrentPosition.addEventListener("click", currentPosition);

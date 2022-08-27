@@ -112,23 +112,6 @@ footer {
   top: -32px;
 }
 
-.active {
-  cursor: default;
-  color: #252d46;
-  font-weight: bold;
-  text-decoration: none;
-}
-.active:hover {
-  text-decoration: none;
-  color: #252d46;
-}
-a {
-  color: #4a5e99;
-}
-a:hover {
-  color: #ffc97c;
-}
-
 .weather-search-form {
   margin-bottom: 15px;
 }
